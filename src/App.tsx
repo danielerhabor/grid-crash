@@ -1,5 +1,7 @@
+import Testimonials from './Testimonials';
+
 const App = () => {
-  return <div></div>;
+  return <Testimonials />;
 };
 
 export default App;
