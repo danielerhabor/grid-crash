@@ -9,10 +9,9 @@
 .item {
   background: steelblue;
   color: #fff;
-
   font-size: 20px;
-
   padding: 20px;
-
   border: skyblue 1px solid;
+  margin: 10px;
+  
 }
