@@ -13,6 +13,9 @@ const Card: FC<{person: Person}> = ({person, ...props}) => {
           <p>{person.status}</p>
         </div>
       </header>
+      <p className={styles.cardLead}>{person.lead}</p>
+      <p className={styles.cardQuote}>"{person.quote}"</p>
+
     </div>
   );
 };

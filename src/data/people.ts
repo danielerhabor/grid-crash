@@ -28,7 +28,7 @@ export const people: Person[] = [
     `I received a job offer mid-course, and the subjects I learned were
   current, if not more so, in the company I joined. I honestly feel I
   got every penny's worth.`,
-    `../images/image-daniel.jpg`
+    `./images/image-daniel.jpg`
   ),
   new Person(
     `Jonathan Walters`,
@@ -36,14 +36,14 @@ export const people: Person[] = [
     `I started as a total newbie with virtually no coding skills. I now
     work as a mobile engineer for a big company. This was one of the best
     investments I've made in myself.`,
-    `../images/image-jonathan.jpg`
+    `./images/image-jonathan.jpg`
   ),
   new Person(
     `Jeanette Harmon`,
     `An overall wonderful and rewarding experience`,
     `Thank you for the wonderful experience! I now have a job I really
     enjoy, and make a good living while doing something I love.`,
-    `../images/image-jeanette.jpg`
+    `./images/image-jeanette.jpg`
   ),
   new Person(
     `Patrick Abrahms`,
@@ -56,7 +56,7 @@ export const people: Person[] = [
     developer. The standard is above the rest. You will get the personal
     attention you need from an incredible community of smart and amazing
     people.`,
-    `../images/image-patrick.jpg`
+    `./images/image-patrick.jpg`
   ),
   new Person(
     `Kira Whittle`,
@@ -72,6 +72,6 @@ export const people: Person[] = [
     often referred to it during interviews as an example of my developent
     experience. It certainly helped me land a job as a full-stack
     developer after receiving multiple offers. 100% recommend!`,
-    `../images/image-kira.jpg`
+    `./images/image-kira.jpg`
   ),
 ];
