@@ -1,4 +1,18 @@
-.someClass {
-  display: grid;
-  margin: 0 auto;
+.container {
+  /* 960px */
+  max-width: 60rem;
+  /* 100px */
+  margin: 6.25rem auto;
+  /* 10px */
+  padding: 0.625rem;
+}
+
+.item {
+  background: steelblue;
+  color: #fff;
+  /* 20px */
+  font-size: 1.25rem;
+  /* 50px */
+  padding: 3.125rem;
+  border: skyblue 0.063rem solid;
 }
