@@ -6,3 +6,10 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
+
+@media (max-width: 768px) {
+  .testimonials {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
