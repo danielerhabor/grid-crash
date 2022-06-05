@@ -1,20 +1,25 @@
+import styles from '../Card.module.css';
+
 export class Person {
   nameof: string;
   lead: string;
   quote: string;
   status: string;
   url: string;
+
   constructor(
     nameof: string,
     lead: string,
     quote: string,
     url: string,
+
     status: string = 'Verified Graduate'
   ) {
     this.nameof = nameof;
     this.lead = lead;
     this.quote = quote;
     this.url = url;
+
     this.status = status;
   }
 }

@@ -3,11 +3,14 @@ import { Person } from './data/people';
 
 import styles from './Card.module.css';
 
-const Card: FC<{person: Person}> = ({person, ...props}) => {
+const Card: FC<{ person: Person; bgColor?: string }> = ({
+  person,
+  ...props
+}) => {
   return (
-    <div className={`${styles.card} ${styles.cardBgPurple}`}>
+    <div className={`${styles.card} ${props.bgColor ?? ''}`}>
       <header className={styles.cardHeader}>
-        <img src={person.url} alt="" />
+        <img className={styles.cardImg} src={person.url} alt="" />
         <div>
           <h3>{person.nameof}</h3>
           <p>{person.status}</p>
@@ -15,7 +18,6 @@ const Card: FC<{person: Person}> = ({person, ...props}) => {
       </header>
       <p className={styles.cardLead}>{person.lead}</p>
       <p className={styles.cardQuote}>"{person.quote}"</p>
-
     </div>
   );
 };
